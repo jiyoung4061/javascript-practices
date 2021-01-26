@@ -43,12 +43,12 @@ funcVal2 = new Function ("a", "b", "return a+b");
 objVal2 = new Object();
 arrVal2 = new Array();
 
-console.log(intVal2 + ":" + typeof(intVal2));
-console.log(boolVal2 + ":" + typeof(boolVal2));
-console.log(strVal2 + ":" + typeof(strVal2));
-console.log(funcVal2 + ":" + typeof(funcVal2));
-console.log(objVal2 + ":" + typeof(objVal2));
-console.log(arrVal2 + ":" + typeof(arrVal2));
+console.log(intVal2 + ":" + typeof(intVal2) + ":" + (intVal2 instanceof Number));
+console.log(boolVal2 + ":" + typeof(boolVal2) + ":" + (boolVal2 instanceof Boolean));
+console.log(strVal2 + ":" + typeof (strVal2) + ":" + (strVal2 instanceof String));
+console.log(funcVal2 + ":" + typeof(funcVal2) + ":" + (funcVal2 instanceof Function));
+console.log(objVal2 + ":" + typeof(objVal2) + ":" + (objVal2 instanceof Object));
+console.log(arrVal2 + ":" + typeof(arrVal2) + ":" + (arrVal2 instanceof Array));
 
 // 원시타입과 원시타입을 wrapper 객체는 별 구분없이 연산 가능하다.
 console.log(intVal + intVal2);
