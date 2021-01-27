@@ -5,6 +5,7 @@
         2) boolean
         3) string
         4) number
+        5) symbol
     1-2. function
     1-3. 객체(object) : 생성자함수(new)를 사용해 객체 생성
 
@@ -13,8 +14,9 @@
         Number, Boolean, Date, RegEx, ... 와 같은 생성자 함수
         parseInt(), setTimeout(), setInterval(), ...과 같은 일반 함수
         전역객체(global, window)
-    2-2. 호스트 객체 : 호스트가 브라우저인 경우
-        ex. document, location, XmlHttpRequest
+    2-2. 호스트 객체 
+        ex) 호스트가 브라우저인 경우 
+            document, location, XmlHttpRequest
     2-3. 사용자 객체 : 자바스크립트 코드가 엔진에서 실행되면서 생성되는 런타임 객체
 */
 
